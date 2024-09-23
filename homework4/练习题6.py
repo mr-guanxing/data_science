@@ -10,7 +10,7 @@ def select_sort(num):
     return num
 
 def generate_random_list(size):
-    return [random.randint(1, 100000) for _ in range(size)]
+    return [random.randint(1, 1000) for _ in range(size)]
 
 
 start_time = time.time()
